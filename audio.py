@@ -24,7 +24,7 @@ def save_tmp_oga(content):
 def convert_voice_to_wav():
     in_filename = 'tmp.oga'
     out_filename = 'voice.wav'
-    command = "ffmpeg -y -i " + in_filename + " " + out_filename
+    command = "./ffmpeg -y -i " + in_filename + " " + out_filename
     system(command)
 
 
@@ -51,7 +51,7 @@ def handle_voice(message, bot, token):
     convert_voice_to_wav()
 
     # Recognizing speech
-    recognized = "rec"
+    recognized = "Произошла ошибка! Возможно, запись очень тихая или пустая."
     try:
         recognized = recognize().lower()
     except:

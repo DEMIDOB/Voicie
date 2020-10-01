@@ -9,9 +9,9 @@ __pycache__/
 # ide
 .idea
 
-# ffmpeg
-ffmpeg
-ffmpeg.exe
+# tmp files
+*.oga
+*.wav
 
 # security
 safe.py
