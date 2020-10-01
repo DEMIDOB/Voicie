@@ -9,6 +9,13 @@ __pycache__/
 # ide
 .idea
 
+# ffmpeg
+ffmpeg
+ffmpeg.exe
+
+# security
+safe.py
+
 # Distribution / packaging
 .Python
 build/
